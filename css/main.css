@@ -32,7 +32,7 @@ body {
   .emojis {
     display: grid;
     grid-template-rows:350px 350px;
-    grid-template-columns: 400px 400px;
+    grid-template-columns: 500px 500px;
     /* I did this mainly to visualize the space since I do not need to re-order the emoji cards */
     grid-template-areas:
         "smile beer" 
