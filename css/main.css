@@ -32,7 +32,7 @@ body {
   .emojis {
     display: grid;
     grid-template-rows:300px 300px;
-    grid-template-columns: 500px 500px;
+    grid-template-columns: 600px 600px;
     /* I did this mainly to visualize the space since I do not need to re-order the emoji cards */
     grid-template-areas:
         "smile beer" 
@@ -42,9 +42,24 @@ body {
 /* Use the flexbox properties to layout the content of the emoji cards + Have the emoji card content in proper order as per the image */
   .emoji {
     display: flex;
-    
-    
- 
+    flex-direction: column;
+  }
+
+  .icon {
+    order: 1;
+  }
+
+  h2 {
+    order: 2;
+  }
+
+  p {
+    order: 3;
+  }
+
+  a {
+    order: 4;
+
   }
 
 
