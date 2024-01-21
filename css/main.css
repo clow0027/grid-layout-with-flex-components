@@ -26,3 +26,9 @@ body {
   .icon {
     font-size: 4rem;
   }
+
+  /* Use the grid properties to layout the emoji cards */
+
+  .emojis {
+    display: grid;
+  }
