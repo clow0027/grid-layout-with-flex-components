@@ -45,20 +45,20 @@ body {
     flex-direction: column;
   }
 
-  .icon {
+  .emoji:nth-child(1) {
     order: 1;
     align-self: center;
   }
 
-  h2 {
+  .emoji:nth-child(2) {
     order: 2;
   }
 
-  p {
+  .emoji:nth-child(3) {
     order: 3;
   }
 
-  a {
+  .emoji:nth-child(4) {
     order: 4;
   }
 
