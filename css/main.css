@@ -60,6 +60,7 @@ body {
 
   .emoji:nth-child(4) {
     order: 4;
+    align-self: flex-end;
   }
 
 
