@@ -39,5 +39,12 @@ body {
         "tears seed";
     gap: 15px;
   }
+/* Use the flexbox properties to layout the content of the emoji cards + Have the emoji card content in proper order as per the image */
+  .emoji {
+    display: flex;
+    
+  }
+
+
 
   
