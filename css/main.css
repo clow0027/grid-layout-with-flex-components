@@ -46,42 +46,22 @@ body {
     flex-direction: column;
   }
 
-  /* .icon{
+  .icon{
+    order: -1;
     align-self: center;
-    order: 1;
-  } */
+  }
 
-  /* h2{
-    order: 4;
+   h2{
+    order: 0;
   }
 
   p{
-    order: 3;
-  }
-
-  ._blank{
-    order: 2;
-  } */
-
-  /* .emoji:nth-child(1) {
     order: 1;
-    
   }
 
-  .emoji:nth-child(2) {
-    order: 2;
+  a { 
+  order: 2;
   }
-
-  .emoji:nth-child(3) {
-    order: 3;
-  }
-
-  .emoji:nth-child(4) {
-    order: 4;
-    
-  } */
-
-  
 
 
 
